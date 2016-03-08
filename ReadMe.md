@@ -2,5 +2,5 @@
 
 **Built using:**
 
-  i. html
-  ii. css
+  1. html
+  2. css
