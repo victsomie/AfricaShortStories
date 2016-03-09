@@ -1,0 +1,106 @@
+#construction{
+    font-size: 50px;
+    text-align: center;
+    color: brown;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+
+html{
+    background-color: burlywood;
+    
+}
+body{
+    margin: auto;
+    background-image: url(/images/moonwithBird.PNG);
+    background-size: cover;
+    background-position: center;
+    min-height:  1000px;
+}
+
+#header{
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    margin-top: -50px;
+}
+
+
+#header ul{
+    display: block;
+    list-style: none;
+    text-align: center;
+    
+}
+
+#header ul li{
+    display: inline;
+    list-style: none;
+    margin-left: 10px;
+    
+}
+
+#header ul li a{
+    color: wheat;
+    text-decoration: none;
+    list-style: none;
+}
+#header ul>li:hover a{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    background-color : wheat;
+    padding: 1px 0 1px 0;
+}
+
+
+
+
+/*Start modifying Sidebar*/
+#side{
+    display: block;
+    
+    min-height: 1000px;
+    float: left;
+}
+#side ul{
+    
+    
+    
+    display: block;
+    float: left;
+    margin-top: 0;
+    padding: 0;
+    background-color:brown;
+    list-style:decimal;
+
+}
+#side ul li{
+    display: block;
+    list-style: none;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-left: 10px groove white;
+}
+
+#side ul li a{
+    color:bisque;
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+}
+
+#side ul li:hover{
+    display: block;
+    list-style: none;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-left: 10px groove white;
+    background-color: wheat;
+    color: black;
+}
+
+#side ul li:hover a{
+
+    color: black;
+}
