@@ -1,8 +1,8 @@
 #construction{
     font-size: 50px;
     text-align: center;
-    color: brown;
-    font-weight: bold;
+    color: deeppink;
+    font-weight:bolder;
     font-family:sans-serif;
 }
 
@@ -59,24 +59,28 @@ body{
 /*Start modifying Sidebar*/
 #side{
     display: block;
-    
-    min-height: 1000px;
-    float: left;
+    width: ;
+    min-width: ;
+    float: leftg;
+    clear: rightf;
+    position: relative;
 }
+
+
 #side ul{
-    
-    
-    
     display: block;
-    float: left;
+    float: leftf;
     margin-top: 0;
     padding: 0;
     background-color:brown;
     list-style:decimal;
+    width: ;
+    text-align: center;
+    margin: 0;
 
 }
 #side ul li{
-    display: block;
+    display: inline;
     list-style: none;
     margin-bottom: 5px;
     padding: 5px;
@@ -91,7 +95,7 @@ body{
 }
 
 #side ul li:hover{
-    display: block;
+    display: inline;
     list-style: none;
     margin-bottom: 5px;
     padding: 5px;
@@ -103,4 +107,27 @@ body{
 #side ul li:hover a{
 
     color: black;
+}
+
+
+
+/*Style the stories content*/
+#content{
+    background-color:bisque;
+    width: 70%;
+    float: rightc;
+    display: block;
+    margin-right: 40px;
+    border: 15px ridge red;
+    opacity: .7;
+}
+
+
+#content .title{
+    font-size: 25px;
+    font-weight: 900;
+    font-family:monospace;
+}
+#content p{
+    font-size: 20px;
 }
