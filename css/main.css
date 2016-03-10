@@ -59,13 +59,11 @@ body{
 /*Start modifying Sidebar*/
 #side{
     display: block;
-    width: ;
     min-width: ;
     float: leftg;
     clear: rightf;
     position: relative;
 }
-
 
 #side ul{
     display: block;
@@ -77,13 +75,12 @@ body{
     width: ;
     text-align: center;
     margin: 0;
-
 }
 #side ul li{
     display: inline;
     list-style: none;
     margin-bottom: 5px;
-    padding: 5px;
+    padding: 10px;
     border-left: 10px groove white;
 }
 
@@ -98,30 +95,26 @@ body{
     display: inline;
     list-style: none;
     margin-bottom: 5px;
-    padding: 5px;
+    padding: 10px;
     border-left: 10px groove white;
     background-color: wheat;
     color: black;
 }
 
 #side ul li:hover a{
-
     color: black;
 }
 
-
-
 /*Style the stories content*/
 #content{
+    margin: auto;
     background-color:bisque;
     width: 70%;
-    float: rightc;
-    display: block;
-    margin-right: 40px;
     border: 15px ridge red;
     opacity: .7;
+    text-align: center;
+    align-content: center;
 }
-
 
 #content .title{
     font-size: 25px;
@@ -130,4 +123,10 @@ body{
 }
 #content p{
     font-size: 20px;
+}
+
+footer{
+    margin: auto;
+    width: 50%;
+    position: 20% 30%;
 }
